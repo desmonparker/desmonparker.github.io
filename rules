@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cult of Ghoul | Rules</title>
+  <style>
+    :root{
+      --bg:#070508;
+      --bg2:#120a12;
+      --panel:rgba(18,10,20,.9);
+      --text:#f4ebf2;
+      --muted:#c6b7c7;
+      --accent:#b10f3a;
+      --gold:#d7ae63;
+      --line:rgba(255,255,255,.08);
+      --shadow:0 14px 40px rgba(0,0,0,.45);
+      --radius:20px;
+      --max:1000px;
+    }
+
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{
+      font-family:Georgia,"Times New Roman",serif;
+      color:var(--text);
+      background:
+        radial-gradient(circle at top, rgba(177,15,58,.15), transparent 26%),
+        linear-gradient(180deg, #050406 0%, #0b070d 50%, #120912 100%);
+    }
+
+    a{text-decoration:none;color:inherit}
+    .container{width:min(92%, var(--max));margin:0 auto}
+
+    header{
+      position:sticky;top:0;z-index:10;
+      backdrop-filter:blur(10px);
+      background:rgba(9,6,10,.72);
+      border-bottom:1px solid var(--line);
+    }
+
+    .topbar{
+     
