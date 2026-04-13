@@ -1,2 +1,1 @@
-# desmonparker.github.io
-Website for cult of ghoul
+# CultofGhoul.github.io
